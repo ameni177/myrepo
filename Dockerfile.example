@@ -1,0 +1,5 @@
+#Base-Image von Ubuntu
+FROM ubuntu:latest
+
+#Hier könnte man theoretisch ein Skript ausführen lassen
+CMD ["bash", "-c", "while true; do echo 'Hello aus docker'; sleep 3 ; done"]
